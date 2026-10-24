@@ -1,0 +1,7 @@
+name: genpark-distributed-id-snowflake-generator-skill
+description: 64-bit Twitter Snowflake-compatible distributed unique ID generator with clock backwards drift protection
+version: 1.0.1
+entrypoint: mcp_server.py
+command: python
+args:
+  - mcp_server.py
